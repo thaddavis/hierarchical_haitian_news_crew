@@ -5,47 +5,61 @@ from crewai.project import CrewBase, agent, crew, task
 # from hierarchical_news_crew.tools.custom_tool import MyCustomTool
 
 # Check our tools documentations for more information on how to use them
-# from crewai_tools import SerperDevTool
+from crewai_tools import ScrapeWebsiteTool
+
+scrape_web_tool = ScrapeWebsiteTool()
 
 @CrewBase
-class HierarchicalNewsCrewCrew():
-	"""HierarchicalNewsCrew crew"""
+class HierarchicalNewsCrew():
+	"""HierarchicalNews crew"""
 
 	@agent
-	def researcher(self) -> Agent:
+	def reporter_a(self) -> Agent:
 		return Agent(
-			config=self.agents_config['researcher'],
-			# tools=[MyCustomTool()], # Example of custom tool, loaded on the beginning of file
+			config=self.agents_config['reporter_a'],
+			tools=[scrape_web_tool],
 			verbose=True
 		)
 
 	@agent
-	def reporting_analyst(self) -> Agent:
+	def reporter_b(self) -> Agent:
 		return Agent(
-			config=self.agents_config['reporting_analyst'],
+			config=self.agents_config['reporter_b'],
+			tools=[scrape_web_tool],
 			verbose=True
 		)
-
+	
+	@agent
+	def reporter_c(self) -> Agent:
+		return Agent(
+			config=self.agents_config['reporter_c'],
+			tools=[scrape_web_tool],
+			verbose=True
+		)
+	
+	@agent
+	def project_manager(self) -> Agent:
+		return Agent(
+			config=self.agents_config['project_manager'],
+			verbose=True
+		)
+	
 	@task
 	def research_task(self) -> Task:
 		return Task(
 			config=self.tasks_config['research_task'],
-		)
-
-	@task
-	def reporting_task(self) -> Task:
-		return Task(
-			config=self.tasks_config['reporting_task'],
 			output_file='report.md'
 		)
-
+	
 	@crew
 	def crew(self) -> Crew:
 		"""Creates the HierarchicalNewsCrew crew"""
 		return Crew(
-			agents=self.agents, # Automatically created by the @agent decorator
-			tasks=self.tasks, # Automatically created by the @task decorator
-			process=Process.sequential,
+			agents=[self.reporter_a(), self.reporter_b(), self.reporter_c()], # Automatically created by the @agent decorator
+			tasks=[
+				self.research_task(),
+			], # Automatically created by the @task decorator
+			manager_agent=self.project_manager(),
 			verbose=True,
-			# process=Process.hierarchical, # In case you wanna use that instead https://docs.crewai.com/how-to/Hierarchical/
+			process=Process.hierarchical, # In case you wanna use that instead https://docs.crewai.com/how-to/Hierarchical/
 		)
