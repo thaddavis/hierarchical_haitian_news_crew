@@ -10,8 +10,8 @@ from crewai_tools import ScrapeWebsiteTool
 scrape_web_tool = ScrapeWebsiteTool()
 
 @CrewBase
-class HierarchicalNewsCrew():
-	"""HierarchicalNews crew"""
+class HierarchicalHaitianNewsCrew():
+	"""HierarchicalHaitianNewsCrew"""
 
 	@agent
 	def reporter_a(self) -> Agent:
@@ -85,7 +85,7 @@ class HierarchicalNewsCrew():
 	
 	@crew
 	def crew(self) -> Crew:
-		"""Creates the HierarchicalNewsCrew crew"""
+		"""Creates the HierarchicalHaitianNewsCrew crew"""
 		return Crew(
 			agents=[self.reporter_a(), self.reporter_b(), self.reporter_c(), self.reporter_d(), self.reporter_e(), self.reporter_f(), self.reporter_g()], # Automatically created by the @agent decorator
 			tasks=[

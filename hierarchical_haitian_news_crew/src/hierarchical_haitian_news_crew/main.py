@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import sys
-from hierarchical_news_crew.crew import HierarchicalNewsCrew
+from hierarchical_haitian_news_crew.crew import HierarchicalHaitianNewsCrew
 
 import os
 import agentops
@@ -16,7 +16,7 @@ def run():
     """
     Run the crew.
     """
-    HierarchicalNewsCrew().crew().kickoff()
+    HierarchicalHaitianNewsCrew().crew().kickoff()
 
 
 def train():
@@ -27,7 +27,7 @@ def train():
         "topic": "AI LLMs"
     }
     try:
-        HierarchicalNewsCrew().crew().train(n_iterations=int(sys.argv[1]), filename=sys.argv[2], inputs=inputs)
+        HierarchicalHaitianNewsCrew().crew().train(n_iterations=int(sys.argv[1]), filename=sys.argv[2], inputs=inputs)
 
     except Exception as e:
         raise Exception(f"An error occurred while training the crew: {e}")
@@ -37,7 +37,7 @@ def replay():
     Replay the crew execution from a specific task.
     """
     try:
-        HierarchicalNewsCrew().crew().replay(task_id=sys.argv[1])
+        HierarchicalHaitianNewsCrew().crew().replay(task_id=sys.argv[1])
 
     except Exception as e:
         raise Exception(f"An error occurred while replaying the crew: {e}")
@@ -50,7 +50,7 @@ def test():
         "topic": "AI LLMs"
     }
     try:
-        HierarchicalNewsCrew().crew().test(n_iterations=int(sys.argv[1]), openai_model_name=sys.argv[2], inputs=inputs)
+        HierarchicalHaitianNewsCrew().crew().test(n_iterations=int(sys.argv[1]), openai_model_name=sys.argv[2], inputs=inputs)
 
     except Exception as e:
         raise Exception(f"An error occurred while replaying the crew: {e}")
