@@ -38,6 +38,38 @@ class HierarchicalNewsCrew():
 		)
 	
 	@agent
+	def reporter_d(self) -> Agent:
+		return Agent(
+			config=self.agents_config['reporter_d'],
+			tools=[scrape_web_tool],
+			verbose=True
+		)
+	
+	@agent
+	def reporter_e(self) -> Agent:
+		return Agent(
+			config=self.agents_config['reporter_e'],
+			tools=[scrape_web_tool],
+			verbose=True
+		)
+
+	@agent
+	def reporter_f(self) -> Agent:
+		return Agent(
+			config=self.agents_config['reporter_f'],
+			tools=[scrape_web_tool],
+			verbose=True
+		)
+	
+	@agent
+	def reporter_g(self) -> Agent:
+		return Agent(
+			config=self.agents_config['reporter_g'],
+			tools=[scrape_web_tool],
+			verbose=True
+		)
+
+	@agent
 	def project_manager(self) -> Agent:
 		return Agent(
 			config=self.agents_config['project_manager'],
@@ -55,7 +87,7 @@ class HierarchicalNewsCrew():
 	def crew(self) -> Crew:
 		"""Creates the HierarchicalNewsCrew crew"""
 		return Crew(
-			agents=[self.reporter_a(), self.reporter_b(), self.reporter_c()], # Automatically created by the @agent decorator
+			agents=[self.reporter_a(), self.reporter_b(), self.reporter_c(), self.reporter_d(), self.reporter_e(), self.reporter_f(), self.reporter_g()], # Automatically created by the @agent decorator
 			tasks=[
 				self.research_task(),
 			], # Automatically created by the @task decorator
