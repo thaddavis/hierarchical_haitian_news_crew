@@ -10,9 +10,9 @@ research_task:
     - New York Times (https://www.nytimes.com/topic/destination/haiti) & make sure research is done by the New York Times reporter.
     - CNN (https://www.cnn.com/search?q=Haiti&from=0&size=10&page=1&sort=newest&types=all&section=) & make sure research is done by the CNN reporter.
 
-    Make sure you find any interesting and relevant information given the current date is 10-10-2024.
+    Make sure you find any interesting and relevant information given the current date is 10-12-2024.
   expected_output: >
-    A list of 5 articles representing the most important articles retrieved from the various news outlets. Include a summary of 
-    each article and include detailed sources and citations so that the information can be verified.
-    Include links to the sources in the final output. Also, along with each article summary but separate include an accompanying 
-    solution-oriented question to pose to social media for how to fix any problems being raise by the article.
+    5 Bulletpoints of the top 5 events representing the most important developments retrieved from the various news outlets. Include a summary of 
+    event and include detailed sources and citations so that the information can be verified.
+    Include links to the sources in the final output. Finally, generate a solution-oriented question to
+    pose to social media to addresss any problems being raised by the most prominent of the developments.
