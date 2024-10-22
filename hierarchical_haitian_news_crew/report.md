@@ -1,19 +1,24 @@
-### Recent Developments in Haiti (as of October 11, 2024)
+Here are the top 5 events reflecting the current situation in Haiti as of October 12, 2024, from various reputable sources:
 
-1. **Gang Violence Escalation**: The Gran Grif gang's violent activities have surged, particularly in the Artibonite region, culminating in severe civilian casualties. A multinational police force, including Kenyan officers, is currently deployed to mitigate gang influence and improve security. The situation remains critical with reports of mass killings and unrest (Sources: [Haitian Times](https://www.haitiantimes.com/), [Radio France Internationale](https://www.rfi.fr/en/tag/haiti/)).
+1. **Gang Violence and Land Grabs in Cap-Haïtien**:
+   - Delegate Pierrot Augustin faces allegations of using a fake security unit to unlawfully seize land and harass residents in Cap-Haïtien. Reports indicate illegal land grabs and night searches targeting young men. This highlights the continuing crisis of gang violence exacerbated by corruption within local governance.
+   - Source: Onz Chéry, *The Haitian Times*, [Haitian official accused of using fake security unit](https://haitiantimes.com/haiti/).
 
-2. **Political Corruption Investigations**: Political tensions have intensified as allegations of corruption surface against members of the Presidential Transition Council (CPT), particularly concerning a bank bribery scandal. At least three members are under investigation, which raises alarms about governance amid Haiti's ongoing instability (Sources: [Ayibopost](https://ayibopost.com/), [The Haitian Times](https://www.haitiantimes.com/)).
+2. **Escalating Violence Results in Civilian Casualties**:
+   - Recent violent clashes in Ganthier resulted in at least two deaths during a gang attack. This ongoing trend of gang violence is wreaking havoc in Haiti, resulting in numerous fatalities and a climate of fear among civilians.
+   - Source: *The Haitian Times*, [Gang attack in Haiti’s Ganthier leaves at least 2 deaths](https://haitiantimes.com/haiti/).
 
-3. **Humanitarian Crisis Amid Displacement**: Over 185,000 individuals are struggling to meet basic needs due to rampant gang violence disrupting access to essential services. Many displaced individuals live in makeshift camps, highlighting the dire humanitarian circumstances exacerbated by ongoing violence (Source: [Radio France Internationale](https://www.rfi.fr/en/tag/haiti/)).
+3. **UN Sanctions Renewed Amidst Growing Violence**:
+   - The United Nations Security Council has renewed sanctions on Haiti due to an alarming increase in gang violence, kidnappings, and arms trafficking. The resolution passed on October 18, 2024, extends the embargo and sanctions for another year.
+   - Source: *Haitian Times*, [UN Security Council extends sanctions and arms embargo on Haiti](https://haitiantimes.com/haiti/).
 
-4. **International Aid and Deportation Challenges**: The Haitian government seeks support from the Organization of American States (OAS) to address discriminatory deportations from the Dominican Republic that threaten vulnerable populations. This reflects ongoing concerns regarding migrant rights amid increased deportations (Source: [Ayibopost](https://ayibopost.com/), [The Haitian Times](https://www.haitiantimes.com/)).
+4. **Haitian PM Survives Gang Attack**:
+   - Prime Minister Garry Conille narrowly escaped an attack while at a hospital, highlighting the intensity of the gang warfare affecting civilians and government officials alike in Haiti.
+   - Source: *The Haitian Times*, [Haitian PM Garry Conille escapes gang attack](https://haitiantimes.com/haiti/).
 
-5. **Encouragement of Diaspora Investment**: The government is urging the diaspora to invest in Haiti's recovery efforts while pledging voting rights for Haitians abroad in the forthcoming elections. This initiative aims to leverage the diaspora’s potential for national stabilization (Source: [Ayibopost](https://ayibopost.com/), [Radio France Internationale](https://www.rfi.fr/en/tag/haiti/)).
+5. **Humanitarian Crisis Due to Displacement**:
+   - Approximately 185,000 people remain displaced in Haiti as they struggle for survival amid escalating gang violence. Many have been forced to flee their homes, living in unstable conditions characterized by lack of security and limited access to basic needs.
+   - Source: [The Haitian Times](https://haitiantimes.com/haiti/).
 
-### Summary
-These developments illustrate the multifaceted challenges Haiti currently faces, including rampant gang violence, political instability, dire humanitarian conditions, immigration issues, and the potential role of the diaspora in the nation's recovery.
-
-### Solution-Oriented Question for Social Media
-"What actionable support can the international community provide to assist Haiti in managing its escalating gang violence and humanitarian crisis, while ensuring the rights and safety of migrants are upheld?" 
-
-This question aims to engage audiences on social platforms and encourage collaborative dialogue on solutions for the crises facing Haiti.
+### Solution-Oriented Question to Social Media:
+"What are some actionable steps the international community can take to support Haiti in overcoming the crippling effects of gang violence and its humanitarian crisis?"
